@@ -1,0 +1,89 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+#homeNav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  font-weight: 100;
+  z-index: 3;
+  .navbar-brand h3 {
+    font-weight: 100;
+  }
+  .nav-link {
+    font-size: 1.4rem;
+  }
+  .nav-link:hover {
+    transition: 0.2s;
+    border-bottom: 1px solid white;
+  }
+}
+
+#searchResultsNav {
+  position: static;
+  top: 0;
+}
+
+#showcase {
+  background: url("../images/main2.jpeg") bottom center / cover no-repeat;
+  min-height: 750px;
+  position: relative;
+
+  #header {
+    z-index: 2;
+  }
+
+  #overlay {
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+
+  h1 {font-family: "Questrial", sans-serif;
+      line-height: 1;
+    }
+  }
+
+#popularCategories {
+  hr {
+      background-color: #36b3a8 !important;
+      color: #36b3a8 !important;
+      border: solid 2px #36b3a8, !important;
+      height: 1px !important;
+  }
+
+  .categories {
+    background-color: #c9d1cb;
+    border: 4px solid white;
+
+    a {
+      color: black;
+    }
+  }
+
+}
+
+@media(max-width: 992px) {
+  #showcase {
+    h1 {
+      font-size: 3rem;
+    }
+  }
+}
+
+@media(max-width: 768px) {
+  #homeNav {
+    .navbar {
+      .nav-link:hover{
+        border: none;
+      }
+    background: #1f1f1f;
+    }
+  }
+}

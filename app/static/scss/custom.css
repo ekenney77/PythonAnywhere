@@ -1,0 +1,53 @@
+body {
+  font-family: "Raleway", sans-serif; }
+
+#mainNavbar {
+  position: fixed-top; }
+
+#showcase {
+  background: url("../images/main2.jpeg") bottom center/cover no-repeat;
+  min-height: 750px;
+  position: relative; }
+  #showcase #remote {
+    font-weight: bold; }
+  #showcase #jobFinder {
+    font-weight: 100; }
+  #showcase #header {
+    z-index: 2; }
+  #showcase #overlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; }
+  #showcase h1 {
+    font-family: "Questrial", sans-serif;
+    line-height: 1; }
+  #showcase #book {
+    border-radius: 2rem;
+    font-size: 1.5rem; }
+
+#quotes i {
+  opacity: 0.4; }
+
+@media (max-width: 768px) {
+  .navbar {
+    background: #1f1f1f; }
+    .navbar .nav-link:hover {
+      border: none; } }
+#popularCategories hr {
+  background-color: #36b3a8 !important;
+  color: #36b3a8 !important;
+  border: solid 2px #36b3a8, !important;
+  height: 1px !important; }
+#popularCategories .categories {
+  background-color: #c9d1cb;
+  border: 4px solid white; }
+
+@media (max-width: 992px) {
+  #showcase h1 {
+    font-size: 3rem; } }
+
+/*# sourceMappingURL=custom.css.map */
